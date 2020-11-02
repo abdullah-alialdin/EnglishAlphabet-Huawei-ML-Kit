@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="default_weight">1</dimen>
+    <dimen name="arrows_layout_weight">2</dimen>
+    <dimen name="arrow_margin">12dp</dimen>
+    <dimen name="card_image_padding">16dp</dimen>
+    <dimen name="card_corner_rad">24dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="category_text_padding">8dp</dimen>
+    <dimen name="category_text_padding_tab">16dp</dimen>
+    <dimen name="category_text_size">28sp</dimen>
+    <dimen name="category_text_size_tab">48sp</dimen>
+    <dimen name="category_image_width">150dp</dimen>
+    <dimen name="category_image_height">100dp</dimen>
+    <dimen name="license_padding">8dp</dimen>
+    <dimen name="license_margin">40dp</dimen>
+    <dimen name="circle_dia">50dp</dimen>
+    <dimen name="main_card_textView">8dp</dimen>
+    <dimen name="speaker_width_height">100dp</dimen>
+    <dimen name="speaker_width_height_tab">200dp</dimen>
+    <dimen name="divided_view_width">1dp</dimen>
+    <dimen name="about_textSize_tab">20sp</dimen>
+    <dimen name="cat_image_width_tab">200dp</dimen>
+    <dimen name="cat_image_height_tab">200dp</dimen>
+    <dimen name="hint_textSize_tab">32sp</dimen>
+    <dimen name="arrow_height_tab">200dp</dimen>
+    <dimen name="speaker_padding">16dp</dimen>
+</resources>

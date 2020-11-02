@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">الحروف الانجليزية</string>
+    <string name="about_text">برنامج تعليم الحروف الانجليزية للاطفال الاصدار الأول\n\n
+        جميع الحقوق محفوظة © 2020 عبدوريود (عبدالله علي الدين)
+        مرخص بموجب ترخيص اباتشي، الإصدار 2.0 ("الترخيص") ؛ \n
+        لا يمكنك استخدام هذا الملف إلا بما يتوافق مع الترخيص. \n
+        يمكنك الحصول على نسخة من الترخيص من \n
+        http://www.apache.org/licenses/LICENSE-2.0 \n
+        ما لم يتطلب القانون المعمول به أو المتفق عليه كتابةً ، البرامج
+        يتم توزيعها بموجب الترخيص على أساس (كما هي) ،
+        بدون ضمانات أو شروط من أي نوع ، سواء كانت صريحة أو ضمنية. \n
+        راجع الترخيص باللغة المحددة التي تحكم أذونات و
+        قيود الترخيص. \n\n
+        جميع الصور من تصميم موقع فري بيك وعدلها المطور \n
+        https://www.freepik.com \n
+        وجميع الأصوات تم إنشاؤها بواسطة ML KIT-TTS من هواوي ويلزم وجود اتصال بالانترنت للحصول على الاصوات
+        وجميع الحقوق محفوظة للمطورين © 2020 \n\n
+        بنود الخصوصية: \n\n
+        التاريخ: اكتوبر 2020 \n\n
+        ما المعلومات التي يجمعها التطبيق؟ \n
+        نحن لا نجمع أيًا من معلوماتك ولا نشارك أيًا من معلوماتك مع أطراف ثالثة.
+        \n\n
+        لماذا نطلب تلك الإذونات؟ \n
+        1. إذن الوصول الى الإنترنت مطلوب من جوجل للاعلانات لعرض الإعلانات. \n\n
+        2. إذن الوصول الى الإنترنت وحالة الشبكة مطلوب من هواوى للحصول على النطق الصحيح للحروف والكلمات. \n\n
+        للمتابعة والملاحظات:
+    </string>
+    <string name="email_subject">تقييم تطبيق الحروف الانجليزية للاطفال</string>
+    <string name="share_message">\"برنامج ممتع جدا لتعليم الأطفال الحروف الانجليزية وبعض الكلمات البسيطة \"</string>
+    <string name="back_arrow_des">للخلف</string>
+    <string name="next_arrow_des">للأمام</string>
+    <string name="content_image_des">الصورة</string>
+    <string name="text_image_des">الاسم</string>
+    <string name="category_image">صورة المجموعة</string>
+    <string name="gmail_icon">البريد</string>
+    <string name="twitter_icon">تويتر</string>
+    <string name="youtube_icon">يوتيوب</string>
+    <string name="linkedin_icon">لنكيد ان</string>
+    <string name="color_red_description">احمر</string>
+    <string name="color_blue_description">ازرق</string>
+    <string name="color_green_description">اخضر</string>
+    <string name="color_purple_description">بنفسجي</string>
+    <string name="color_brown_description">بني</string>
+    <string name="color_pink_description">بينك</string>
+    <string name="speaker_description">سماع الصوت</string>
+    <string name="share">مشاركة</string>
+    <string name="rate">تقييم</string>
+    <string name="about">حول</string>
+    <string name="settings">إعدادات</string>
+</resources>

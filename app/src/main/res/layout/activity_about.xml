@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.AboutActivity"
+    tools:ignore="UselessParent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bottom_nav"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/license_text_view_style"
+                android:text="@string/about_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/gmail"
+                    style="@style/follow_image_button"
+                    android:contentDescription="@string/gmail_icon"
+                    android:src="@drawable/gmail" />
+
+                <ImageButton
+                    android:id="@+id/twitter"
+                    style="@style/follow_image_button"
+                    android:contentDescription="@string/twitter_icon"
+                    android:src="@drawable/twitter" />
+
+                <ImageButton
+                    android:id="@+id/youtube"
+                    style="@style/follow_image_button"
+                    android:contentDescription="@string/youtube_icon"
+                    android:src="@drawable/youtube" />
+
+                <ImageButton
+                    android:id="@+id/linkedin"
+                    style="@style/follow_image_button"
+                    android:contentDescription="@string/linkedin_icon"
+                    android:src="@drawable/linkedin" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

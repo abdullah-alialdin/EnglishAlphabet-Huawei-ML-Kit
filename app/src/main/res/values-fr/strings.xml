@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alphabet Anglais</string>
+    <string name="about_text">Alphabet Anglais v1.0\n\n
+        Copyright © 2020 Abdoriod (Abdullah Alialdin)
+        Sous licence Apache License, Version 2.0 (la "Licence");\n
+        vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.\n
+        Vous pouvez obtenir une copie de la licence à l\'adresse
+        \nhttp://www.apache.org/licenses/LICENSE-2.0\n
+        Sauf si requis par la loi applicable ou accepté par écrit, le logiciel
+        distribué sous licence est distribué sur une base "en l\'état",
+        SANS GARANTIE OU CONDITION D\'AUCUNE SORTE, expresse ou implicite.\n
+        Voir la licence pour la langue spécifique régissant les autorisations et
+        limitations sous la licence.\n\n
+        Tous les éléments d\'image conçus par Freepik et modifiés par le développeur\n
+        https://www.freepik.com\n
+        Tous les sons générés par Huawei ML KIT-TTS et Une connexion Internet est nécessaire pour obtenir les sons.
+        et tous droits réservés aux développeurs © 2020\n\n
+        Politique de confidentialité:\n\n
+        Date: Octobre 2020\n\n
+        Quelles informations l\'application collecte-t-elle?\n
+        Nous ne collectons aucune de vos informations et ne partageons aucune de vos informations avec des tiers.
+        \n\n
+        Pourquoi avons-nous besoin d\'une autorisation?\n
+        1. Seule l\'autorisation Internet requise de Google AdMob pour afficher des annonces. \n\n
+        2. L\'autorisation d\'accéder à Internet et à l\'état du réseau est requise de la part de Huawei pour obtenir la prononciation correcte des lettres et des mots. \n\n
+        Suivez et commentaires:
+    </string>
+    <string name="email_subject">Alphabet anglais retour d\'information</string>
+    <string name="back_arrow_des">flèche arrière</string>
+    <string name="next_arrow_des">flèche suivante</string>
+    <string name="content_image_des">image de contenu</string>
+    <string name="text_image_des">image texte</string>
+    <string name="category_image">Image de la catégorie</string>
+    <string name="gmail_icon">icône gmail</string>
+    <string name="twitter_icon">icône twitter</string>
+    <string name="youtube_icon">icône youtube</string>
+    <string name="linkedin_icon">Icône linkedin</string>
+    <string name="color_red_description">La couleur rouge</string>
+    <string name="color_blue_description">Couleur bleue</string>
+    <string name="color_green_description">la couleur verte</string>
+    <string name="color_purple_description">couleur violet</string>
+    <string name="color_brown_description">couleur marron</string>
+    <string name="color_pink_description">Couleur rose</string>
+    <string name="speaker_description">oratrice</string>
+    <string name="share_message">Un programme très amusant pour enseigner aux enfants des lettres anglaises et quelques mots simples </string>
+    <string name="share">Partager</string>
+    <string name="rate">Taux</string>
+    <string name="about">Environ</string>
+    <string name="settings">Réglages</string>
+</resources>

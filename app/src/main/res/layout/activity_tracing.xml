@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="1dp"
+        android:background="@color/bottom_nav"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/red"
+            android:background="@color/red"
+            style="@style/color_circle"
+            android:src="@drawable/bruch"
+            android:contentDescription="@string/color_red_description" />
+        <ImageButton
+            android:id="@+id/blue"
+            style="@style/color_circle"
+            android:background="@color/blue"
+            android:src="@drawable/bruch"
+            android:contentDescription="@string/color_blue_description" />
+        <ImageButton
+            android:id="@+id/green"
+            android:background="@color/green"
+            style="@style/color_circle"
+            android:src="@drawable/bruch"
+            android:contentDescription="@string/color_green_description" />
+        <ImageButton
+            android:background="@color/purple"
+            android:id="@+id/purple"
+            style="@style/color_circle"
+            android:src="@drawable/bruch"
+            android:contentDescription="@string/color_purple_description" />
+        <ImageButton
+            android:id="@+id/brown"
+            android:background="@color/brown"
+            style="@style/color_circle"
+            android:src="@drawable/bruch"
+            android:contentDescription="@string/color_brown_description" />
+        <ImageButton
+            android:id="@+id/pink"
+            android:background="@color/pink"
+            style="@style/color_circle"
+            android:src="@drawable/bruch"
+            android:contentDescription="@string/color_pink_description" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layoutDirection="ltr"
+        android:layout_weight="6"
+        tools:targetApi="jelly_bean_mr1">
+        <RelativeLayout
+            android:id="@+id/mTile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            android:orientation="vertical" >
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/eraser"
+            android:layout_width="@dimen/speaker_width_height"
+            android:layout_height="@dimen/speaker_width_height"
+            android:layout_marginStart="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/speaker_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/eraser"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/mTile"
+            app:layout_constraintVertical_bias="0.63" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/divided_view_width"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+        android:layout_height="@dimen/zero_dp"
+        android:layout_weight="1"
+        android:background="@color/bottom_nav"
+        android:orientation="horizontal"
+        tools:targetApi="jelly_bean_mr1">
+
+        <ImageView
+            android:id="@+id/backward_button"
+            style="@style/arrow_styles"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/back_arrow_des"
+            android:src="@drawable/back_arrow" />
+
+        <ImageView
+            android:id="@+id/voice"
+            style="@style/arrow_styles"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/back_arrow_des"
+            android:src="@drawable/speaker" />
+
+        <ImageView
+            android:id="@+id/home"
+            style="@style/arrow_styles"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/next_arrow_des"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/forward_button"
+            style="@style/arrow_styles"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/next_arrow_des"
+            android:src="@drawable/front_arrow" />
+
+    </LinearLayout>
+</LinearLayout>

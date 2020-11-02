@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Englisches Alphabet</string>
+    <string name="about_text">Englisches Alphabet v1.0\n\n
+        Copyright © 2020 Abdoriod (Abdullah Alialdin)\n
+        Lizenziert unter der Apache-Lizenz, Version 2.0 (die \"Lizenz\");\n
+        Sie dürfen diese Datei nur in Übereinstimmung mit der Lizenz verwenden.\n
+        Eine Kopie der Lizenz erhalten Sie unter\n
+        http: //www.apache.org/licenses/LICENSE-2.0\n
+        Sofern nicht gesetzlich vorgeschrieben oder schriftlich vereinbart, Software
+        unter der Lizenz verteilt wird auf einer \"AS IS\" -BASIS verteilt,
+        OHNE GEWÄHRLEISTUNGEN ODER BEDINGUNGEN JEGLICHER ART, entweder ausdrücklich oder stillschweigend.\n
+        In der Lizenz finden Sie die spezifische Sprache für Berechtigungen und Einschränkungen unter der Lizenz.\n\n
+        Alle von Freepik entworfenen und vom Entwickler geänderten Bildelemente\n
+        https: //www.freepik.com\n
+        und alle von Huawei ML KIT-TTS und einer Internetverbindung erzeugten Stimmen sind erforderlich, um die Stimmen zu empfangen.
+        und alle Rechte den Entwicklern vorbehalten © 2020\n\n
+        Datenschutzerklärung:\n\n
+        Datum: Oktober 2020\n\n
+        Welche Informationen sammelt die App?\n
+        Wir sammeln weder Ihre Daten noch geben wir Ihre Daten an Dritte weiter.\n\n
+        Warum benötigen wir eine Erlaubnis?\n
+        1. Für die Anzeige von Anzeigen ist nur eine Internetberechtigung von Google AdMob erforderlich. \n\n
+        2. Huawei benötigt die Erlaubnis, auf das Internet und den Netzwerkstatus zuzugreifen, um die korrekte Aussprache von Buchstaben und Wörtern zu erhalten. \n\n
+        Folgen und Feedback:
+    </string>
+    <string name="email_subject">Englisches Alphabet Feedback</string>
+    <string name="back_arrow_des">Zurück Pfeil</string>
+    <string name="next_arrow_des">nächster Pfeil</string>
+    <string name="content_image_des">Inhaltsbild</string>
+    <string name="text_image_des">Textbild</string>
+    <string name="category_image">Kategorie Bild</string>
+    <string name="gmail_icon">Google Mail-Symbol</string>
+    <string name="twitter_icon">Twitter-Symbol</string>
+    <string name="youtube_icon">Youtube-Symbol</string>
+    <string name="linkedin_icon">Linkedin-Symbol</string>
+    <string name="color_red_description">Farbe Rot</string>
+    <string name="color_blue_description">Farbe blau</string>
+    <string name="color_green_description">Farbe grün</string>
+    <string name="color_purple_description">Farbe lila</string>
+    <string name="color_brown_description">Farbe braun</string>
+    <string name="color_pink_description">Farbe Pink</string>
+    <string name="speaker_description">Lautsprecher</string>
+    <string name="share_message">Ein sehr lustiges Programm, um Kindern englische Buchstaben und einige einfache Wörter beizubringen </string>
+    <string name="share">Teilen</string>
+    <string name="rate">Bewertung</string>
+    <string name="about">Über</string>
+    <string name="settings">Einstellungen</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:hwads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_dp"
+        android:layout_weight="5"
+        android:onClick="flipCard"
+        tools:ignore="Suspicious0dp">
+
+        <FrameLayout
+            android:id="@+id/card_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/card_back" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/card_front"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <include layout="@layout/card_front" />
+        </FrameLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+        android:layout_height="@dimen/zero_dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        tools:targetApi="jelly_bean_mr1">
+
+        <ImageView
+            android:id="@+id/backward_button"
+            style="@style/arrow_styles"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/back_arrow_des"
+            android:src="@drawable/back_arrow" />
+
+        <ImageView
+            android:id="@+id/voice"
+            style="@style/arrow_styles"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/back_arrow_des"
+            android:src="@drawable/speaker" />
+
+        <ImageView
+            android:id="@+id/home"
+            style="@style/arrow_styles"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/next_arrow_des"
+            android:src="@drawable/home" />
+
+        <ImageView
+            android:id="@+id/forward_button"
+            style="@style/arrow_styles"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/next_arrow_des"
+            android:src="@drawable/front_arrow" />
+
+    </LinearLayout>
+    <com.huawei.hms.ads.banner.BannerView
+        android:id="@+id/hw_banner_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        hwads:adId="@string/banner_ad_id"
+        hwads:bannerSize="BANNER_SIZE_360_57" />
+
+</LinearLayout>
